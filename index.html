@@ -1,32 +1,103 @@
-<!DOCTYPE html>
-
-<html>
+html>
 
  <head>
 
-  <title>Zachary Payne</title>
-  
    <link rel="stylesheet" type="text/css" href="bootstrap.css">
-  
+   
+   <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script> 
+
+    var Name="Zachary Payne";
+
+    var Nickname="Zack";
+
+    var Extension=".TheManZack";
+
+    var Creator="Zachary + Payne";
+
+    var Year="2013";
+
+   </script>
+
  </head>
 
  <body>
- 
- <div align="center" class="container">
- 
-  <div class="jumbotron"
 
-  <h1>Zachary payne</h1>
-  
-  <p>This page is a simple review of Twitter Bootstrap</p>
-  
-  <p><aclass="btn btn-primary btn-lg""HERO</a></p>
-  
+  <div align="center" class="container">
+
+   <h1>Zachary Payne</h1>
+
+   <div class="navbar">
+
+    <div class="navbar-inner">
+
+     <ul class="nav">
+
+      <li class="active"><a href="index.html">Home</a></li>
+
+      <li><a href="twi.html">TwiTree</a></li>
+
+      <li><a href="bros.html">The Four Brothers + 1</a></li>
+      
+      <li><a href="ras.html">Raspberry Pi</a></li>
+
+     </ul>
+
+    </div>
+
+   </div>
+
+  <div align="center">
+
+   <h2>The Demo</h2>
+
+   <p>Zachary Payne has created a new website, and I am calling it DemoDay
+
   </div>
-  
+
+  <div align="center">
+
+   <img src="https://f.cloud.github.com/assets/5033780/949577/559555ac-0380-11e3-9a0b-09215028cce6.jpg">
+
+  </div>
+
+   <script>
+
+     function myFunction()
+
+      {
+
+         document.getElementById("name").innerHTML=Name;
+
+         document.getElementById("nickname").innerHTML=Nickname;
+
+         document.getElementById("extension").innerHTML=Extension;
+
+         document.getElementById("creator").innerHTML=Creator;
+
+         document.getElementById("year").innerHTML=Year;
+
+      }
+
+     </script>
+
+
+     <button type="button" onclick="myFunction()">Meet The Four Brothers + 1</button>
+
+     
+      <p>Name: <span id="name"></span></p>
+
+      <p>Nickname: <span id="nickname"></span></p>
+
+      <p>Extesion: <span id="extension"></span></p>
+
+      <p>Creator: <span id="creator"></span></p>
+
+      <p>Year: <span id="year"></span></p>
+
   </div>
 
  </body>
 
 </html>
-
